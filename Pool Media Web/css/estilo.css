@@ -1,0 +1,331 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+/**header**/
+
+.header-site {
+    background-image: url(/img/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+
+.contenido-header {
+    width: 100%;
+    
+}
+
+
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+}
+
+.barra {
+    background-color: black;
+    font-size: 1.9rem;
+}
+.icopool{
+    width: 3rem;
+    margin-right: 0.4rem;
+    
+}
+
+.enlace,
+.name-bar {
+    color: white;
+    font-size: 1.9rem;
+}
+
+.name-bar span {
+    color: rgb(35, 248, 255);
+
+}
+
+.enlace {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacion {
+    margin-left: 30rem
+}
+
+.navegacion a {
+    margin-left: 2rem;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion a:hover {
+    color: rgb(4, 238, 140);
+}
+
+.ux {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 11rem;
+    margin: 0;
+}
+
+@media(max-width:900px){
+   .mp3{
+       display: none;
+   }
+}
+
+
+.ux img {
+    width: 20rem;
+}
+
+.ux,
+.titulo1 {
+    font-size: 12rem;
+    font-weight: 900;
+    line-height: 12rem;
+    color: white;
+}
+
+.blue {
+    color: rgb(35, 248, 255);
+}
+
+.green {
+    color: rgb(35, 255, 134);
+}
+
+
+/**sobre mi**/
+
+.sobre-mi {
+    color: white;
+    background-color: rgba(19, 19, 19, 0.986);
+    height: 60rem;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre-mi H2 {
+    margin: 0;
+    text-align: center;
+    margin: 4rem;
+    font-size: 4rem;
+}
+
+.contenedor {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pool,
+.perfil {
+    width: 20rem;
+    border-radius: 100rem;
+    
+}
+
+.perfil {
+    width: 20rem;
+    border-radius: 100rem;
+    border: solid 5px rgba(255, 255, 255, 0.342);
+    margin-bottom: 2rem;
+}
+
+.pool,
+.info {
+    width: 40rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+}
+
+/**trabajos**/
+
+.trabajos {
+    color:black;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.trabajo{
+    margin: 0;
+    text-align: center;
+    margin: 4rem;
+    font-size: 4rem;
+}
+    
+
+
+@media(min-width:768px){
+    
+    .mesa{
+       
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+
+.carta{
+    padding: 1.9rem;
+    margin:3rem 5rem 20rem 5rem;
+    border: 1px solid rgb(139, 139, 139) ;
+    height:28rem;
+    border-radius: 2rem;
+    background-color: rgba(2, 177, 154, 0);
+}
+
+.icono{
+    width:20rem;
+    height: 15rem;
+}
+
+.icono,h3{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.icono,p{
+    margin: 0;
+    line-height: 2rem;
+    font-weight:500;
+    font-size: 1.6rem;
+}
+
+.boton{
+background-color: rgb(14, 126, 179);
+border-radius: 1rem;
+border: 0;
+padding: 1rem;
+color: white;
+margin-top: 2rem;
+}
+
+
+/**Contacto**/
+.contacto{
+    background-image: url(/img/fondo2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 45vh;
+    min-height: 60rem;
+    color: white;
+}
+
+.contactame {
+    margin: 0;
+    text-align: center;
+    margin: 4rem;
+    font-size: 4rem;
+}
+
+
+form p{
+    font-size: 2rem;
+}
+
+form{
+    width: 50rem;
+}
+
+
+fieldset{
+    background-color:rgba(0, 0, 0, 0.082);
+    border-color: white;
+    border-radius: 2rem;
+}
+
+legend{
+    font-size: 2.4rem;
+    color: #333333;
+}
+label{
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input[ type ="text"],[ type ="email"]{
+    padding: 1rem;
+    display: block;
+    width: 75%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+textarea{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+textarea{
+    height: 15rem;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nombre{
+    width: 22rem;
+}
+.correo{
+    width: 22rem;
+}
+
+/**footer**/
+
+.site-footer{
+    height: 4rem;
+    padding: 3rem;
+    background: rgba(8, 8, 8, 0.986);
+    color: white;
+}
